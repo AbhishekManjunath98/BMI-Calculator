@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(20, 20, 20);
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: #5cf1de;
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  background-color: rgb(216, 252, 240);
+  padding: 10px;
+  text-align: center;
+}
+
+.color {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+  font-weight: bolder;
+}
+h3,
+h2 {
+  background-color: white;
+}
