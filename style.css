@@ -1,43 +1,42 @@
 body {
-  background-color: rgb(20, 20, 20);
-  padding: 0;
-  margin: 0;
+    background-color: rgb(20, 20, 20);
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
-  color: rgb(108, 177, 255);
-  text-align: center;
-  background-color: black;
-  margin: 0;
-  padding: 20px;
+    color: rgb(108, 177, 255);
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-  margin: auto;
-  height: fit-content;
-  width: fit-content;
-  background-color: rgb(15, 111, 189);
-
-  padding: 10px;
-  text-align: center;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(15, 111, 189);
+    padding: 10px;
+    text-align: center;
 }
 
 .color {
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin: 4px 2px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
 }
 
 button {
-  cursor: pointer;
-  background-color: white;
-  font-weight: bolder;
-  color: #025a4e;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bolder;
+    color: #025a4e;
 }
-h3,
-h2 {
-  background-color: white;
+
+h3,h2 {
+    background-color: white;
 }

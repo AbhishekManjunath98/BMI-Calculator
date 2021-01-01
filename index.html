@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BMI Calculator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <h1>BMI Calculator</h1>
     <div class="container">
-      <input
-        class="color"
-        type="number"
+        
+        <input
+        type="number" 
+        class="color" 
         placeholder="enter your weight in kgs"
-        id="weight"
-      />
-      <br />
-      <br />
-      <input
-        class="color"
+        id="weight">
+        
+        <br>
+        <br>
+        
+        <input 
         type="number"
-        id="height"
-        placeholder="enter height in cms"
-      /><br />
-      <br />
-      <button class="color" type="button" onclick="getInputValue()">
-        CALCULATE
-      </button>
-      <h3 id="h3"></h3>
-      <h2 id="h2"></h2>
+         class="color" 
+         placeholder="enter your height in cms" 
+         id="height">
+         
+         <br>
+         <br>
+         
+         <button class="color" type="button" onclick="getInputValue()">
+            CALCULATE
+        </button>
+        
+        <h3 id="h3"></h3>
+        <h2 id="h2"></h2>
     </div>
-    <script src="./script.js"></script>
-  </body>
+
+    <script src="./scripts.js"></script>
+</body>
 </html>
